@@ -10,10 +10,7 @@ let numberOfCharacters = 0;
 let saveCount = textArea.maxLength;
 
 function checkTryber() {
-  if (
-    emailLogin.value === "tryber@teste.com" &&
-    passwordLogin.value === "123456"
-  ) {
+  if (emailLogin.value === "tryber@teste.com" && passwordLogin.value === "123456") {
     window.alert("Olá, Tryber!");
   } else {
     window.alert("Email ou senha inválidos.");
@@ -31,16 +28,9 @@ submitButton.addEventListener("click", function (event) {
   const radiosFamily = document.querySelectorAll(".radios-family");
   event.preventDefault();
   sectionInfo.innerHTML = "";
-  sectionInfo.innerHTML +=
-    "<span>Nome: " +
-    inputName.value +
-    " " +
-    inputLastname.value +
-    "</span> <br />";
-  sectionInfo.innerHTML +=
-    "<span>Email: " + inputEmail.value + "</span> <br />";
-  sectionInfo.innerHTML +=
-    "<span>Casa: " + selectHouse.value + "</span> <br />";
+  sectionInfo.innerHTML += `<span>Nome: ${inputName.value} ${inputLastname.value}</span> <br />`;
+  sectionInfo.innerHTML += `<span>Email: ${inputEmail.value}</span> <br />`;
+  sectionInfo.innerHTML += `<span>Casa: ${selectHouse.value}</span> <br />`;
   sectionFamily.innerHTML = "";
   sectionFamily.innerHTML = "<p>Qual sua família?</p>";
   for (let index = 0; index < radiosFamily.length; index += 1) {
@@ -54,10 +44,8 @@ submitButton.addEventListener("click", function () {
   const formLabelContent = document.querySelector("#form-label-content");
   const checkboxContents = document.querySelectorAll(".subject");
   formLabelContent.innerHTML = "";
-  formLabelContent.innerHTML =
-    "<p>Qual conteúdo você está com mais vontade de aprender?</p>";
-  formLabelContent.innerHTML +=
-    "<span id='checkboxs-selected'>Matérias:  </span>";
+  formLabelContent.innerHTML = "<p>Qual conteúdo você está com mais vontade de aprender?</p>";
+  formLabelContent.innerHTML += "<span id='checkboxs-selected'>Matérias:  </span>";
   const checboxsSelected = document.querySelector("#checkboxs-selected");
   for (let index = 0; index < checkboxContents.length; index += 1) {
     if (checkboxContents[index].checked === true) {
