@@ -1,6 +1,7 @@
 body {
   width: 100%;
   margin: 1e-12px;
+  padding-bottom: 100px;
 }
 
 .header {
@@ -74,6 +75,23 @@ hr {
   flex-flow: column nowrap;
 }
 
+#textarea {
+  resize: none;
+}
+
+
+#counter {
+  position: absolute;
+  top: 715px;
+  right: 1px;
+  margin-right: 47.5%;
+}
+
 #submit-btn {
   width: 100%;
+  background-color: rgb(183, 0, 255);
+}
+
+footer {
+  background-color: brown;
 }
