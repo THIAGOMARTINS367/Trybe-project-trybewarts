@@ -19,7 +19,7 @@ function checkTryber() {
 
 buttonLogin.addEventListener('click', checkTryber);
 
-submitButton.addEventListener('click', function a (event) {
+submitButton.addEventListener('click', (event) => {
   const sectionInfo = document.querySelector('#section-info');
   const inputName = document.querySelector('#input-name');
   const inputLastname = document.querySelector('#input-lastname');
@@ -40,7 +40,7 @@ submitButton.addEventListener('click', function a (event) {
   }
 });
 
-submitButton.addEventListener('click', function b () {
+submitButton.addEventListener('click', () => {
   const formLabelContent = document.querySelector('#form-label-content');
   const checkboxContents = document.querySelectorAll('.subject');
   formLabelContent.innerHTML = '';
@@ -54,7 +54,7 @@ submitButton.addEventListener('click', function b () {
   }
 });
 
-submitButton.addEventListener('click', function c () {
+submitButton.addEventListener('click', () => {
   const sectionEvaluation = document.querySelector('#section-evaluation');
   const radiosEvaluation = document.querySelectorAll('.radios-evaluation');
   sectionEvaluation.innerHTML = '';
@@ -71,7 +71,7 @@ submitButton.addEventListener('click', function c () {
   sectionTextArea.innerHTML += `<span>${textArea.value}</span>`;
 });
 
-agreementCheckbox.addEventListener('click', function d () {
+agreementCheckbox.addEventListener('click', () => {
   if (agreementCheckbox.checked === true) {
     submitButton.removeAttribute('disabled');
   } else {
@@ -79,7 +79,7 @@ agreementCheckbox.addEventListener('click', function d () {
   }
 });
 
-textArea.addEventListener('keyup', function e () {
+textArea.addEventListener('keyup', () => {
   for (let index = 0; index < textArea.value.length; index += 1) {
     numberOfCharacters += 1;
   }
