@@ -45,7 +45,7 @@ submitButton.addEventListener('click', () => {
   const checkboxContents = document.querySelectorAll('.subject');
   formLabelContent.innerHTML = '';
   formLabelContent.innerHTML = '<p>Qual conteúdo você está com mais vontade de aprender?</p>';
-  formLabelContent.innerHTML += `<span id='checkboxs-selected'>Matérias:  </span>`;
+  formLabelContent.innerHTML += '<span id=checkboxs-selected>Matérias:  </span>';
   const checboxsSelected = document.querySelector('#checkboxs-selected');
   for (let index = 0; index < checkboxContents.length; index += 1) {
     if (checkboxContents[index].checked === true) {
