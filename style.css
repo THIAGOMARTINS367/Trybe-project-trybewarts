@@ -11,7 +11,10 @@ body {
   justify-content: space-between;
 }
 
-#input-name, #input-lastname, #input-email, #house {
+#input-name,
+#input-lastname,
+#input-email,
+#house {
   margin: 5px;
 }
 
@@ -144,6 +147,6 @@ footer {
   background-color: #0d1117;
 }
 
-footer span{
+footer span {
   display: block;
 }
