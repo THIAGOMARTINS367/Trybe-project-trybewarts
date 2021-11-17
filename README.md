@@ -1,24 +1,16 @@
-### Termos de acordo
+### Descrição
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+Este projeto foi desenvolvido durante o período de Curso da Trybe :rocket:
 
----
-
-# Boas vindas ao repositório do projeto Trybewarts Wizarding School! :mage:
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+O projeto tem por objetivo a avaliação e prática dos conhecimentos adquiridos na Trybe, visando o cumprimento do requisitos solicitados pela mesma..
 
 ---
 
 # Sumário
 
 * [Habilidades](#habilidades)
-* [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
 * [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
     - [Antes de começar a desenvolver:](#antes-de-começar-a-desenvolver)
     - [Durante o desenvolvimento](#durante-o-desenvolvimento)
@@ -53,15 +45,8 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [Lista de requisitos não avaliativos:](#lista-de-requisitos-não-avaliativos)
     - [22. Preencha o arquivo feedback.md . Aproveite o espaço para deixar seus feedbacks sobre o projeto.](#22-preencha-o-arquivo-feedbackmd--aproveite-o-espaço-para-deixar-seus-feedbacks-sobre-o-projeto)
     - [23. Realize o desenvolvimento da versão mobile do formulário Trybewarts.](#23-realize-o-desenvolvimento-da-versão-mobile-do-formulário-trybewarts)
-* [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-  - [Code Review (opcional)](#code-review-opcional)
-  - [Dicas](#dicas)
-  - [Revisando um pull request](#revisando-um-pull-request)
-* [Avisos finais](#avisos-finais)
 
 # Habilidades
-
-Neste projeto, verificamos se você é capaz de:
 
 * Criar formulários em HTML;
 * Utilizar CSS Flexbox para criar layouts flexíveis;
@@ -69,12 +54,6 @@ Neste projeto, verificamos se você é capaz de:
 * Construir páginas que alteram o seu layout de acordo com a orientação da tela;
 
 ---
-
-# Entregáveis
-
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/fundamentals/git) sempre que precisar!
 
 ## O que deverá ser desenvolvido
 
@@ -86,13 +65,7 @@ Neste projeto, você irá desenvolver uma página de formulário da Escola de Ma
 
 O seu Pull Request deverá conter os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código HTML, CSS e JavaScript, respectivamente.
 
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a monitoria.
-
-## Data de entrega
-
-* Projeto em dupla.
-* Sera `1` dia de projeto.
-* Data de entrega para avaliação final do projeto: `16/11/2021 - 14:00h`.
+Você pode adicionar outros arquivos se julgar necessário.
 
 # Instruções para entregar seu projeto
 
@@ -147,13 +120,13 @@ git checkout joao-silva-trybewarts
   * Usando o exemplo anterior: `git push -u origin joao-silva-trybewarts`
 
 7. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-017-project-trybewarts/pulls)
+  * Vá até a página de _Pull Requests_ do repositório no GitHub
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ no seguinte formato: `[Joao Silva e Maria Souza] Trybewarts`, e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-017-project-trybewarts/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a página de _Pull Requests_ do repositório e confira que o seu _Pull Request_ está criado.
 
 ---
 
@@ -615,68 +588,3 @@ Esses requisitos **não** são verificáveis pelo avaliador automático.
 * Leve em conta a largura da tela e a experiência do usuário ao reorganizar o layout para dispositivos menores.
 * Tente inserir um 'menu hambúrguer' na barra superior para lidar com o login usando javascript. Se não conseguir, tente criar uma página separada de login, uma prática muito comum.
 * Deixe sua criatividade fluir! Preferimos não avaliar esse requisito justamente pra que você tenha liberdade para executar a responsividade da maneira que você achar mais agradável!
-
----
-
-# Depois de terminar o desenvolvimento
-
-#### A pessoa dona da branch deve garantir que o último commit nessa branch é seu. Pode ser feita alguma alteração que não afete o cumprimento dos requisitos para realizar o commit.
-
-A outra pessoa integrante da dupla deve criar uma nova `branch` a partir da `branch` de trabalho _(a primeira branch criada pela equipe)_.
-
-Exemplo: 
-
-1. Use `git branch` para ter certeza de que está na branch de trabalho;
-2. Caso não esteja use `git checkout joaozinho-trybewarts-project`  para trocar de `branch`;
-3. User `git checkout -b mariazinha-trybewarts-project` para criar uma nova branch a partir da branch anterior (`joaozinnho-trybewarts-project`);
-
-**Garanta que o último commit da branch é de autoria da pessoa dona de cada branch. Novamente pode ser feita alguma alteração que não afete o cumprimento dos requisitos para realizar o commit.**
-
-1. Adicione sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin mariazinha-trybewarts-project`
-   
-2. Crie um novo `Pull Request` (PR)
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-017-project-trybewarts/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-017-project-trybewarts/pulls) e confira que o seu _Pull Request_ está criado
- 
-⚠️ **Para o seu projeto ser avaliado você deve se assegurar que o último commit na branch é da pessoa dona da branch.**
-
----
-
-## Code Review (opcional)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-* No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-* No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-* No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-017`.
-
-Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
-
-## Dicas
-
-* Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/trybewarts`.
-
----
-
-## Revisando um pull request
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
-
----
-
-# Avisos finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
